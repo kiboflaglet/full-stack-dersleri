@@ -18,6 +18,6 @@ Playlistdə qeyd olunan hər bir dərsdə yazılan tapşırıq, proyeklər və d
 
 ## **Yükləmək üçün**
 
-`git clonse git@github.com:kiboflaglet/full-stack-dersleri.git`
+`git clone git@github.com:kiboflaglet/full-stack-dersleri.git`
 
 Uğurlar!!!
