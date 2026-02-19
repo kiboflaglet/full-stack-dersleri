@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ders 3</title>
+</head>
+
+<body>
+
+    <form>
+
+        <h2>Qeydiyyat formu</h2>
+
+        <label for="ad">Ad:</label>
+        <input required type="text" name="ad" id="ad" placeholder="Adınız">
+
+        <br>
+        <br>
+
+        <label for="soyad">Soyad:</label>
+        <input required type="text" name="soyad" id="soyad" placeholder="Soyadınız">
+
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Emailiniz">
+
+        <br>
+        <br>
+
+        <label for="password">Şifrə:</label>
+        <input type="password" name="password" id="password" placeholder="Şifrəniz">
+
+        <br>
+        <br>
+
+        <label>Cins:</label>
+        <input type="radio" name="cins" id="kisi">
+        <label for="kisi">Kişi</label>
+        <input type="radio" name="cins" id="qadin">
+        <label for="qadin">Qadın</label>
+
+        <br>
+        <br>
+
+        <label for="olkeler">Ölkələr:</label>
+        <select name="olkeler" id="olkeler">
+            <option value="az">Azərbaycan</option>
+            <option value="tr" selected>Türkiyə</option>
+            <option value="ru">Rusiya</option>
+            <option value="uk">İngiltərə</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label>Maraqlar:</label>
+        <br>
+        <input type="checkbox" name="maraq" id="idman">
+        <label for="idman">Idman</label>
+        <br>
+
+        <input type="checkbox" name="maraq" id="musiqi">
+        <label for="musiqi">Musiqi</label>
+        <br>
+
+        <input type="checkbox" name="maraq" id="kitab">
+        <label for="kitab">Kitab</label>
+
+        <br>
+        <br>
+
+        <label for="mesaj">Mesaj:</label>
+        <br>
+        <textarea rows="3" cols="40" name="mesaj" id="mesaj" placeholder="Mesajınız..."></textarea>
+
+        <br>
+        <br>
+
+        <button>
+            Qeydiyyatdan keçin
+        </button>
+        <button type="reset">
+            Təmizlə
+        </button>
+
+
+    </form>
+
+</body>
+
+</html>
