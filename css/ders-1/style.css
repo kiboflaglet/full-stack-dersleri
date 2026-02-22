@@ -1,0 +1,29 @@
+body {
+    background: #d3d3d3;
+}
+
+.page-title {
+    margin:0;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid gray;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card-job {
+    color: gray;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
