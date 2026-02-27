@@ -13,3 +13,17 @@
 * İlkin CSS properties
 * link stylesheet nədir
 * Praktika (Mənim Profilim)
+
+
+## Dərs 2
+
+• Display nədir?
+• block, inline, inline-block nədir?
+• flex nədir?
+• Box model nədir?
+• Semantic Layout tətbiq
+• outline nədir və borderdən fərqi nədir?
+• font necə dəyişdirilir?
+• nested selectors nədir?
+• Pseudo classes
+• Praktika layihə (Texno Dünyamız)

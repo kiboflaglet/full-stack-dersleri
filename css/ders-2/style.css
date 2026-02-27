@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f8f9fa;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #bc5ce7;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  border-bottom: 2px solid #eee;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  padding: 0;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+
+  a:hover {
+    color: #bc5ce7;
+  }
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 16px;
+  border: 2px solid #eee;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #bc5ce7;
+  color: white;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;;
+    background: white;;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 18px;
+    color: #848484;
+    margin-bottom: 40px;
+}
+
+.btn-filled {
+    background: #bc5ce7;
+    color: white;
+    border: 2px solid #9247b5;
+
+}
+
+.btn-outline {
+    border: 2px solid black;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px;
+    margin-bottom: 40px;;
+}
+
+.card {
+    background: white;
+    padding: 40px 30px;
+    border: 1px solid #cfcfcf;
+    flex: 1;
+}
+
+.card:nth-child(2) {
+    outline: 2px solid #bc5ce7;
+    margin-top: -10px
+}
+
+.card:hover {
+    outline: 2px solid #bc5ce7;
+}
+
+.card .icon {
+    font-size: 30px;
+    font-weight: bold;
+    color: #bc5ce7;
+}
+
+footer {
+    background: #2d3436;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
